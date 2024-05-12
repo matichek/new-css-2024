@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section>
+
+        <!-- write me html for 3 columns with container class and column class. -->
+
+        <div class="container">
+
+            <div class="column-intro">
+                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, vero.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ducimus modi odio deserunt
+                    pariatur quidem eos reprehenderit magni voluptatem nostrum aliquam accusamus, inventore harum
+                    incidunt rerum architecto molestiae beatae officiis.</p>
+            </div>
+
+            <div class="column">
+                <div>
+                    <h2>Column 1 Lorem ipsum dolor, si</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
+                    </p>
+                </div>
+                <div>
+                    <h2>Column 1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
+                    </p>
+                </div>
+                <div>
+                    <h2>Column 1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
+                    </p>
+                    <p>
+                        <!-- placeholder list -->
+                        <ul class="test-list">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+           
+        </div>
+
+
+    </section>
+
+
+    <section class="section-bg-test overlay">
+
+        <pre>
+            .overlay {
+                border-image: fill 0 linear-gradient(#0003, #000);
+            }
+        </pre>
+
+        <h2>Never give up</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis assumenda ipsam, incidunt doloribus, nulla
+            mollitia inventore facilis rem rerum soluta nihil nam! Soluta dicta voluptates excepturi voluptate tenetur
+            praesentium libero.
+        </p>
+
+    </section>
+
+
+    <section>
+        <div class="container">
+            <!-- write me a figure with palceholder loremflickr iamge with 500px 500px -->
+
+            <pre>
+                .figure-holder {
+                    inline-size: 50vw;
+                    block-size: 50vh;
+                
+                    img {
+                        inline-size: 100%;
+                        block-size: 100%;
+                        object-fit: cover;
+                    
+                    }
+                }
+            </pre>
+
+            <div class="figure-holder">
+                <figure>
+                    <img src="https://loremflickr.com/500/500" alt="Image">
+                </figure>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <!-- write me a card html with image, title, sub title, description button and prices. -->
+            <h2>
+                Fit the desc of p, nicely with
+
+            </h2>
+            <pre>
+                grid-template-columns: 200px fit-content(40ch) 1fr;
+            </pre>
+            <div class="card">
+                <figure><img src="https://loremflickr.com/200/200" alt="Card Image"></figure>
+                <div class="content">
+                    <h2>Card Title</h2>
+                    <h3>Card Sub Title</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
+                    </p>
+                    <button>Read More</button>
+                </div>
+                <div class="prices">
+                    <span>Price: $100</span>
+                    <span>Discount: $10</span>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <h2>
+                Focus withing changes the parent element
+                <pre>
+                    &:focus-within
+                </pre>
+            </h2>
+            <!-- make a login module with username and password and submit button -->
+            <div class="login">
+                <form action="">
+                    <input title="Caret color is hotpink color!" type="text" name="username" id="username"
+                        placeholder="Username">
+                    <input type="password" name="password" id="password" placeholder="Password">
+
+                    <!-- html radio button width placeholder -->
+                    <input type="radio" value="Test" />
+                    <input type="radio" value="Test" />
+
+                    <!-- slider html -->
+                    <input type="range" name="range" id="range" min="0" max="100" step="1" value="50">
+                    <!-- progress html -->
+                    <progress value="50" max="100"></progress>
+
+
+
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
